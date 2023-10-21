@@ -1,0 +1,114 @@
+hemlets:
+
+  ascended:
+
+    berserker:
+      - power: 63
+      - precision: 45
+      - vitality: 0
+      - ferocity: 45
+
+    dragon:
+      - power: 54
+      - precision: 30
+      - vitality: 0
+      - ferocity: 54
+
+    marauder:
+      - power: 54
+      - precision: 54
+      - vitality: 0
+      - ferocity: 30
+
+
+shoulders:
+
+  ascended:
+    
+    berserker:
+      - power: 
+      - precision: 
+      - vitality: 0
+      - ferocity: 
+
+    dragon:
+      - power: 
+      - precision: 
+      - vitality: 0
+      - ferocity: 
+
+    marauder:
+      - power: 
+      - precision: 
+      - vitality: 0
+      - ferocity:
+
+
+coat:
+
+  ascended:
+    
+    berserker:
+      - power: 
+      - precision: 
+      - vitality: 0
+      - ferocity: 
+
+    dragon:
+      - power: 
+      - precision: 
+      - vitality: 0
+      - ferocity: 
+
+    marauder:
+      - power: 
+      - precision: 
+      - vitality: 0
+      - ferocity:
+
+
+gloves:
+
+  ascended:
+    
+    berserker:
+      - power: 
+      - precision: 
+      - vitality: 0
+      - ferocity: 
+
+    dragon:
+      - power: 
+      - precision: 
+      - vitality: 0
+      - ferocity: 
+
+    marauder:
+      - power: 
+      - precision: 
+      - vitality: 0
+      - ferocity:
+
+
+leggings:
+
+  ascended:
+    
+    berserker:
+      - power: 
+      - precision: 
+      - vitality: 0
+      - ferocity: 
+
+    dragon:
+      - power: 
+      - precision: 
+      - vitality: 0
+      - ferocity: 
+
+    marauder:
+      - power: 
+      - precision: 
+      - vitality: 0
+      - ferocity:
+
