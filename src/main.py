@@ -5,4 +5,7 @@ with open('db/gear.yaml') as file:
     gear = yaml.safe_load(file)
 
 # print(gear['hemlets']['ascended']['berserker'])
-print(gear)
+# print(gear)
+
+for armour_piece in gear:
+    print(armour_piece)
