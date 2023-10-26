@@ -11,13 +11,13 @@ hemlets:
     dragon:
       - power: 54
       - precision: 30
-      - vitality: 0
+      - vitality: 30
       - ferocity: 54
 
     marauder:
       - power: 54
       - precision: 54
-      - vitality: 0
+      - vitality: 30
       - ferocity: 30
 
 
@@ -26,16 +26,16 @@ shoulders:
   ascended:
     
     berserker:
-      - power: 
-      - precision: 
+      - power: 47
+      - precision: 34
       - vitality: 0
-      - ferocity: 
+      - ferocity: 34
 
     dragon:
-      - power: 
-      - precision: 
-      - vitality: 0
-      - ferocity: 
+      - power: 40
+      - precision: 22
+      - vitality: 22
+      - ferocity: 40
 
     marauder:
       - power: 
