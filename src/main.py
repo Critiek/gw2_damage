@@ -8,4 +8,6 @@ with open('db/gear.yaml') as file:
 # print(gear)
 
 for armour_piece in gear:
-    print(armour_piece)
+    # print(armour_piece)
+    for armour_prefix in armour_piece:
+        print(armour_prefix)
