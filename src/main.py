@@ -1,5 +1,6 @@
 import PySimpleGUI as pg
 import yaml
+import itertools
 
 with open('db/gear.yaml') as file:
     gear = yaml.safe_load(file)

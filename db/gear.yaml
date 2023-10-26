@@ -1,228 +1,208 @@
 helmet:
 
-  ascended:
+  berserker:
+    - power: 63
+    - precision: 45
+    - vitality: 0
+    - ferocity: 45
 
-    berserker:
-      - power: 63
-      - precision: 45
-      - vitality: 0
-      - ferocity: 45
+  dragon:
+    - power: 54
+    - precision: 30
+    - vitality: 30
+    - ferocity: 54
 
-    dragon:
-      - power: 54
-      - precision: 30
-      - vitality: 30
-      - ferocity: 54
-
-    marauder:
-      - power: 54
-      - precision: 54
-      - vitality: 30
-      - ferocity: 30
+  marauder:
+    - power: 54
+    - precision: 54
+    - vitality: 30
+    - ferocity: 30
 
 
 shoulders:
 
-  ascended:
-    
-    berserker:
-      - power: 47
-      - precision: 34
-      - vitality: 0
-      - ferocity: 34
+  berserker:
+    - power: 47
+    - precision: 34
+    - vitality: 0
+    - ferocity: 34
 
-    dragon:
-      - power: 40
-      - precision: 22
-      - vitality: 22
-      - ferocity: 40
+  dragon:
+    - power: 40
+    - precision: 22
+    - vitality: 22
+    - ferocity: 40
 
-    marauder:
-      - power: 40 
-      - precision: 40
-      - vitality: 22
-      - ferocity: 22
+  marauder:
+    - power: 40 
+    - precision: 40
+    - vitality: 22
+    - ferocity: 22
 
 
 coat:
 
-  ascended:
-    
-    berserker:
-      - power: 141 
-      - precision: 101 
-      - vitality: 0
-      - ferocity: 101
+  berserker:
+    - power: 141 
+    - precision: 101 
+    - vitality: 0
+    - ferocity: 101
 
-    dragon:
-      - power: 121
-      - precision: 67  
-      - vitality: 67
-      - ferocity: 121
+  dragon:
+    - power: 121
+    - precision: 67  
+    - vitality: 67
+    - ferocity: 121
 
-    marauder:
-      - power: 121
-      - precision: 121 
-      - vitality: 67
-      - ferocity: 67
+  marauder:
+    - power: 121
+    - precision: 121 
+    - vitality: 67
+    - ferocity: 67
 
 
 gloves:
 
-  ascended:
-    
-    berserker:
-      - power: 37
-      - precision: 34 
-      - vitality: 0
-      - ferocity: 34
+  berserker:
+    - power: 37
+    - precision: 34 
+    - vitality: 0
+    - ferocity: 34
 
-    dragon:
-      - power: 40
-      - precision: 22
-      - vitality: 22
-      - ferocity: 40
+  dragon:
+    - power: 40
+    - precision: 22
+    - vitality: 22
+    - ferocity: 40
 
-    marauder:
-      - power: 40
-      - precision: 40 
-      - vitality: 22
-      - ferocity: 22
+  marauder:
+    - power: 40
+    - precision: 40 
+    - vitality: 22
+    - ferocity: 22
 
 
 leggings:
 
-  ascended:
-    
-    berserker:
-      - power: 94
-      - precision: 67 
-      - vitality: 0
-      - ferocity: 67
+  berserker:
+    - power: 94
+    - precision: 67 
+    - vitality: 0
+    - ferocity: 67
 
-    dragon:
-      - power: 81
-      - precision: 44
-      - vitality: 44
-      - ferocity: 81
+  dragon:
+    - power: 81
+    - precision: 44
+    - vitality: 44
+    - ferocity: 81
 
-    marauder:
-      - power: 81
-      - precision: 81 
-      - vitality: 44
-      - ferocity: 44
+  marauder:
+    - power: 81
+    - precision: 81 
+    - vitality: 44
+    - ferocity: 44
 
 
 boots:
 
-  ascended:
-    
-    berserker:
-      - power: 47
-      - precision: 34 
-      - vitality: 0
-      - ferocity: 34
+  berserker:
+    - power: 47
+    - precision: 34 
+    - vitality: 0
+    - ferocity: 34
 
-    dragon:
-      - power: 40
-      - precision: 22 
-      - vitality: 22
-      - ferocity: 40
+  dragon:
+    - power: 40
+    - precision: 22 
+    - vitality: 22
+    - ferocity: 40
 
-    marauder:
-      - power: 40
-      - precision: 40 
-      - vitality: 22
-      - ferocity: 22
+  marauder:
+    - power: 40
+    - precision: 40 
+    - vitality: 22
+    - ferocity: 22
 
 
 amulet:
 
-  ascended:
-    
-    berserker:
-      - power: 157
-      - precision: 108 
-      - vitality: 0
-      - ferocity: 108
+  berserker:
+    - power: 157
+    - precision: 108 
+    - vitality: 0
+    - ferocity: 108
 
-    dragon:
-      - power: 133
-      - precision: 71 
-      - vitality: 71
-      - ferocity: 133
+  dragon:
+    - power: 133
+    - precision: 71 
+    - vitality: 71
+    - ferocity: 133
 
-    marauder:
-      - power: 133
-      - precision: 133 
-      - vitality: 71
-      - ferocity: 71
+  marauder:
+    - power: 133
+    - precision: 133 
+    - vitality: 71
+    - ferocity: 71
 
 
 ring:
 
-  ascended:
-    
-    berserker:
-      - power: 126
-      - precision: 85 
-      - vitality: 0
-      - ferocity: 85
+  berserker:
+    - power: 126
+    - precision: 85 
+    - vitality: 0
+    - ferocity: 85
 
-    dragon:
-      - power: 106
-      - precision: 56 
-      - vitality: 56
-      - ferocity: 106
+  dragon:
+    - power: 106
+    - precision: 56 
+    - vitality: 56
+    - ferocity: 106
 
-    marauder:
-      - power: 106
-      - precision: 106 
-      - vitality: 56
-      - ferocity: 56
+  marauder:
+    - power: 106
+    - precision: 106 
+    - vitality: 56
+    - ferocity: 56
 
 
 earring:
 
-  ascended:
-    
-    berserker:
-      - power: 110
-      - precision: 74 
-      - vitality: 0
-      - ferocity: 74
+  berserker:
+    - power: 110
+    - precision: 74 
+    - vitality: 0
+    - ferocity: 74
 
-    dragon:
-      - power: 92
-      - precision: 49 
-      - vitality: 49
-      - ferocity: 92
+  dragon:
+    - power: 92
+    - precision: 49 
+    - vitality: 49
+    - ferocity: 92
 
-    marauder:
-      - power: 92
-      - precision: 92
-      - vitality: 49
-      - ferocity: 49
+  marauder:
+    - power: 92
+    - precision: 92
+    - vitality: 49
+    - ferocity: 49
 
 
 back:
 
-  ascended:
-    
-    berserker:
-      - power: 63 
-      - precision: 40 
-      - vitality: 0
-      - ferocity: 40
+  berserker:
+    - power: 63 
+    - precision: 40 
+    - vitality: 0
+    - ferocity: 40
 
-    dragon:
-      - power: 52
-      - precision: 27 
-      - vitality: 27
-      - ferocity: 52
+  dragon:
+    - power: 52
+    - precision: 27 
+    - vitality: 27
+    - ferocity: 52
 
-    marauder:
-      - power: 52
-      - precision: 52
-      - vitality: 27
-      - ferocity: 27
+  marauder:
+    - power: 52
+    - precision: 52
+    - vitality: 27
+    - ferocity: 27
