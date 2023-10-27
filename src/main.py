@@ -1,42 +1,34 @@
 import PySimpleGUI as pg
 import yaml
-import itertools
 
-with open('db/gear.yaml') as file:
-    gear = yaml.safe_load(file)
+with open('data/gear.yaml') as file:
+    gear_data = yaml.safe_load(file)
 
-power = 1000
-precision = 1000
-ferocity = 0
+armour_slots = ['helmet', 'shoulders', 'coat', 'gloves', 'leggings', 'boots', 'amulet', 'ring', 'ring', 'earring', 'earring', 'back']
 
-crit_chance = (precision - 895) / 21
-critical_damage = (ferocity / 1500) + 1.5
+best_combination = None
+best_damage = 0
+
 skill_coefficient = 2
 
-armour = int(input('How much armour does the target have? \n> '))
+armour = int(input('How much armour does the target have (recommended: 2000)? \n> '))
 weapon_max_damage = int(input('How much damage does your weapon do? \n> '))
 
-
-damage = ((power * weapon_max_damage * skill_coefficient) / armour) * (1 + crit_chance * (critical_damage - 1))
-
-print('you will deal [{}] damage to the target'.format(damage))
-
-
-# print(gear['hemlets']['ascended']['berserker'])
-# print(gear)
-
-# for armour_type in gear:
-#     for armour_rarity in gear[armour_type]:
-#         for armour_prefix in gear[armour_type][armour_rarity]:
-#             for armour_stat in gear[armour_type][armour_rarity][armour_prefix]:
-#                 print(str(armour_type) + ': ' + str(armour_prefix) + str(armour_stat))
+def calculate_damage(power, crit_chance, critical_damage, skill_coefficient, armour, weapon_max_damage):
+    damage = ((power * weapon_max_damage * skill_coefficient) / armour) * (1 + crit_chance * (critical_damage - 1))
+    return damage
 
 
+for armour_slot in armour_slots:
+    for prefix in gear_data[armour_slot]:
+        print(str(armour_slot) + ': ' + str(prefix))
 
-# NOTE: stuff below is just formula
 
-# ((power * 1100 * 2.0) / armour ) * (1 + crit_chance (ferocity - 1))
+power = None 
+precision = None
+ferocity = None 
 
-# assume armour = 2000
-# 1100 = max greatsword damage 
-# Crit_chance and ferocity as decimals
+# crit_chance = (precision - 895) / 21
+# critical_damage = (ferocity / 1500) + 1.5
+
+# damage = calculate_damage(power, crit_chance, critical_damage, skill_coefficient, armour, weapon_max_damage)
